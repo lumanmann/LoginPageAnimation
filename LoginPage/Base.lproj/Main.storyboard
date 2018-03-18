@@ -66,9 +66,6 @@
                                 <state key="normal" title="Sign up">
                                     <color key="titleColor" red="0.31372549020000001" green="0.34901960780000002" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <action selector="sginupClicked:" destination="R46-Sn-8ur" eventType="touchUpInside" id="WpC-D4-V5Z"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EMAIL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4z-zt-Xcf">
                                 <rect key="frame" x="65" y="135" width="210" height="17"/>
@@ -81,11 +78,6 @@
                         <color key="backgroundColor" red="0.40000000000000002" green="0.60784313729999995" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="UCe-eN-Nns"/>
                     </view>
-                    <connections>
-                        <outlet property="firstNameTF" destination="kH4-zL-HLJ" id="ahJ-pH-wAh"/>
-                        <outlet property="lastNameTF" destination="Gga-AU-feC" id="5ta-qa-CpG"/>
-                        <outlet property="signupButton" destination="NDL-U9-xKC" id="IDZ-fP-IeY"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNe-2u-doK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -140,12 +132,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="aD5-Uq-lAq"/>
-                    <connections>
-                        <outlet property="backgroundImage" destination="tBk-Vq-QUr" id="kXz-PF-dTe"/>
-                        <outlet property="loginButton" destination="BgU-t2-KRH" id="mo1-Ej-9Jq"/>
-                        <outlet property="logo" destination="geH-Aq-C2b" id="8n7-DL-78O"/>
-                        <outlet property="signupButton" destination="2cR-Gx-XOH" id="jsY-RL-0Me"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,9 +181,6 @@
                                 <state key="normal" title="Log In">
                                     <color key="titleColor" red="0.31372549020000001" green="0.34901960780000002" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <action selector="loginClicked:" destination="qly-UI-qx6" eventType="touchUpInside" id="VZT-P5-k24"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNg-ZX-Wj9">
                                 <rect key="frame" x="100" y="258.5" width="175" height="20"/>
@@ -217,11 +200,6 @@
                         <color key="backgroundColor" red="0.40000000000000002" green="0.60784313729999995" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="zOu-5b-qMB"/>
                     </view>
-                    <connections>
-                        <outlet property="loginButton" destination="Dyy-U0-de7" id="eht-8K-R0s"/>
-                        <outlet property="passwordTF" destination="51j-aB-n7h" id="S8e-I0-JF7"/>
-                        <outlet property="usernameTF" destination="MOI-kX-fa8" id="Ieb-Gy-59F"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7O-lN-AKH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
