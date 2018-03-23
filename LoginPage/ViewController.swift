@@ -10,15 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var signupButton: UIButton!
-    @IBOutlet weak var loginButton: UIButton!
-    @IBOutlet weak var logo: UILabel!
-    @IBOutlet weak var backgroundImage: UIImageView!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+
         
     }
     

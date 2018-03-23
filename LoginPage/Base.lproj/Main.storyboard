@@ -91,7 +91,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass" translatesAutoresizingMaskIntoConstraints="NO" id="tBk-Vq-QUr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tBk-Vq-QUr">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -206,8 +206,5 @@
             <point key="canvasLocation" x="1690" y="-315"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="grass" width="274" height="184"/>
-    </resources>
     <color key="tintColor" red="0.44731992479999999" green="0.60111099479999996" blue="0.49410885570000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
